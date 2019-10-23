@@ -2,7 +2,7 @@
 
 ## create a docker image
 ```bash
-$ docker build -t "image name" .
+$ docker build -t apitest .
     
 Sending build context to Docker daemon  6.656kB
 Step 1/7 : FROM node:12
