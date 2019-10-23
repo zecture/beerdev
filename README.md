@@ -1,4 +1,10 @@
 # beerdev
 backend, api, db 
 
-# for api documentaition, see api/README.md
+# API
+see /api/README.md
+
+# Database
+tbd, ha kolla på MongoDb som alternativ?
+
+# Backend
