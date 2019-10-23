@@ -43,5 +43,11 @@ Dockerfile  README.md  node_modules  package-lock.json  package.json  server.js
 ```
         
 ## remove container / image
+```bash
+$ docker rm "CONTAINER ID"
+```
+```bash
+$ docker rmi "IMAGE ID"
+```
 
 
