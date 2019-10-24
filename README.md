@@ -1,5 +1,5 @@
 # Beerdev
-backend, api, db 
+write stuff here
 
 # API
 see /api/README.md
