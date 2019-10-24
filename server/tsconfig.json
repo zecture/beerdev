@@ -7,14 +7,16 @@
       "moduleResolution": "node",
       "sourceMap": true,
       "outDir": "dist",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
       "baseUrl": ".",
+      "skipLibCheck": true,
+      "lib": ["dom", "es6", "es2017", "esnext.asynciterable"],
       "paths": {
           "*": [
               "node_modules/*"
           ]
       }
   },
-  "include": [
-      "src/**/*"
-  ]
+  "include": ["./src/**/*.tsx", "./src/**/*.ts"],
 }
