@@ -1,7 +1,5 @@
-'use strict';
-const express = require('express');
-const { ApolloServer, gql } = require('apollo-server-express');
-import * as path from "path";
+import * as express from 'express';
+import { ApolloServer, gql } from 'apollo-server-express';
 
 const typeDefs = gql`
   type Query {
