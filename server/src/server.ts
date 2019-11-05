@@ -13,12 +13,6 @@ const resolvers = {
   },
 };
 
-
-async function bootstrap() {
-
-}
-
-
 const server = new ApolloServer({ typeDefs, resolvers });
 
 
