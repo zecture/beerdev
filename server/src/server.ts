@@ -1,40 +1,32 @@
-import * as express from 'express';
-import { ApolloServer, gql } from 'apollo-server-express';
-import { createConnection, getRepository } from "typeorm";
+import "reflect-metadata";
+import { createConnection } from "typeorm";
+import * as express from "express";
+import { ApolloServer } from "apollo-server-express";
+import { buildSchema } from "type-graphql";
+import * as cors from "cors";
 
-const typeDefs = `
-type User {
-  id: ID!
-  name: String!
-  email: String!
-}
-type Query {
-  hello(name: String): String!
-  user(id: ID!): User!
-}
-`;
 
-const resolvers = {
-  Query: {
-    hello: () => 'Hello world!',
-  },
+const startServer = async () => {
+  await createConnection();
+  console.log("Database connection successful");
+  const app = express();
+
+
+  const server = new ApolloServer({
+    schema: await buildSchema({
+      resolvers: [__dirname + "/modules/**/resolver.*"]
+    }),
+    context: ({ req }: any) => ({
+      req
+    })
+  });
+  console.log("Here");
+
+  server.applyMiddleware({ app });
+
+  app.listen({ port: 8080 }, () => {
+    console.log("Server running");
+  });
 };
 
-const server = new ApolloServer({ typeDefs, resolvers });
-
-const app = express();
-
-server.applyMiddleware({ app });
-
-createConnection().then(() => {
-  app.get('/', (req, res) => {
-    res.send('');
-  });
-  app.listen({ port: 4000 }, () =>
-    console.log(`🚀 Server ready at http://localhost:4000${server.graphqlPath}`)
-  );
-})
-
-// App
-
-
+startServer();
