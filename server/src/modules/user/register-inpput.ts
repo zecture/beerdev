@@ -14,7 +14,7 @@ export class RegisterInput implements Partial<User>{
     @Field()
     @IsString()
     @MinLength(3)
-    @MaxLength(25)
+    @MaxLength(255)
     password: string;
 
     @Field()

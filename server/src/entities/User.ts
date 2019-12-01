@@ -15,6 +15,6 @@ export class User extends BaseEntity {
   password: string
 
   @Field()
-  @Column()
+  @Column({ nullable: true })
   credit: string
 }
