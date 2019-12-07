@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+$primary: #032e77;
+$enable-responsive-font-sizes: true;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    height: 100vh;
+    background-image: url("assets/background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
