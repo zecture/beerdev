@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="480" viewBox="0 0 800 480">
+  <defs>
+    <clipPath id="clip-Artboard_1">
+      <rect width="800" height="480"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <g id="Group_1" data-name="Group 1">
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="85" cy="85" r="85" transform="translate(540 -85)" fill="#032e77"/>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="85" cy="85" r="85" transform="translate(665 -29)" fill="#032e77"/>
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="44.5" cy="44.5" r="44.5" transform="translate(498 -59)" fill="#032e77"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="matrix(0.53, -0.848, 0.848, 0.53, -376.437, 600.386)">
+      <circle id="Ellipse_9-2" data-name="Ellipse 9" cx="85" cy="85" r="85" transform="translate(540 -85)" fill="#032e77"/>
+      <circle id="Ellipse_10-2" data-name="Ellipse 10" cx="85" cy="85" r="85" transform="translate(665 -29)" fill="#032e77"/>
+      <circle id="Ellipse_11-2" data-name="Ellipse 11" cx="44.5" cy="44.5" r="44.5" transform="translate(498 -59)" fill="#032e77"/>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="matrix(0.53, -0.848, 0.848, 0.53, 361.563, 1006.386)">
+      <circle id="Ellipse_9-3" data-name="Ellipse 9" cx="85" cy="85" r="85" transform="translate(540 -85)" fill="#032e77"/>
+      <circle id="Ellipse_10-3" data-name="Ellipse 10" cx="85" cy="85" r="85" transform="translate(665 -29)" fill="#032e77"/>
+      <circle id="Ellipse_11-3" data-name="Ellipse 11" cx="44.5" cy="44.5" r="44.5" transform="translate(498 -59)" fill="#032e77"/>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="matrix(-0.951, -0.309, 0.309, -0.951, 660.727, 622.589)">
+      <circle id="Ellipse_9-4" data-name="Ellipse 9" cx="85" cy="85" r="85" transform="translate(540 -85)" fill="#032e77"/>
+      <circle id="Ellipse_10-4" data-name="Ellipse 10" cx="85" cy="85" r="85" transform="translate(665 -29)" fill="#032e77"/>
+      <circle id="Ellipse_11-4" data-name="Ellipse 11" cx="44.5" cy="44.5" r="44.5" transform="translate(498 -59)" fill="#032e77"/>
+    </g>
+  </g>
+</svg>
