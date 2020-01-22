@@ -1,0 +1,21 @@
+//server can be found at http://localhost:8080/graphql
+//Working register mutation example
+
+mutation {
+  createUser(
+    data: { <---- input data
+      name: "Jolle",
+      password:"Test"
+    }
+  ){id, name} <---- What to see from the return object
+}
+
+
+/////
+Example query
+
+{
+  users {
+    id
+  }
+}#
