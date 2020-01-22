@@ -1,15 +1,12 @@
 {
     "type": "postgres",
-    "host": "ec2-54-195-252-243.eu-west-1.compute.amazonaws.com",
+    "host": "localhost",
     "port": 5432,
-    "username": "kpytciiiqjxahh",
-    "password": "878a82be4791fc7396e1b3362c60529983e9339fa646eb6c7f9985ca6a624cff",
-    "database": "d9anvi0bbntfso",
+    "username": "postgres",
+    "password": "admin",
+    "database": "postgres",
     "synchronize": true,
     "dropSchema": true,
     "logging": true,
-    "entities": ["src/entities/**/*.ts"],
-    "extra": {
-      "ssl": true
-  }
+    "entities": ["src/entities/**/*.ts"]
 }

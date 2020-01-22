@@ -2,14 +2,14 @@
   "name": "beerdevserver",
   "version": "1.0.0",
   "description": "```bash\r $ docker build -t apitest .",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon"
   },
   "dependencies": {
     "@types/bcryptjs": "^2.4.2",
-    "apollo-server-express": "^2.9.7",
+    "apollo-server": "^2.9.16",
     "bcryptjs": "^2.4.3",
     "class-validator": "^0.11.0",
     "dotenv": "^8.2.0",
