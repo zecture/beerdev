@@ -2,6 +2,11 @@ RFID Client
 
 This client uses Electron and Angular to build a desktop application that can run on diffrent operating systems.
 
+## Version numbers
+```
+Node: v12.6.0
+```
+
 ## Installation
 
 Clone the repo and run the following command.
