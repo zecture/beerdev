@@ -1,29 +1,34 @@
-<div class="container d-flex h-100">
-    <div class="row my-auto">
-        <div class="col-12">
-            <div class="card-deck">
-                <div class="card shadow">
-                    <img src="assets/beer.png" class="card-img-top" alt="beer" style="max-height: 100px; min-height:100px;">
-                    <div class="card-body">
-                        <h5 class="card-title">Öl</h5>
-                        <p class="card-text"><small class="text-muted">1 token</small></p>
-                    </div>
-                </div>
-                <div class="card shadow">
-                    <img src="assets/cider.jpg" class="card-img-top" alt="cider" style="max-height: 100px; min-height:100px;">
-                    <div class="card-body">
-                        <h5 class="card-title">Cider</h5>
-                        <p class="card-text"><small class="text-muted">2 token</small></p>
-                    </div>
-                </div>
-                <div class="card shadow">
-                    <img src="assets/coca-cola.png" class="card-img-top" alt="coca-cola" style="max-height: 100px; min-height:100px;">
-                    <div class="card-body">
-                        <h5 class="card-title">Läsk</h5>
-                        <p class="card-text"><small class="text-muted">1 token</small></p>
-                    </div>
-                </div>
-            </div>
+<div class="container-fluid" style="height:100vh;">
+    <div class="row h-100">
+        <div class="col-4 bg-danger d-flex justify-content-center border border-dark">
+            <a class="my-auto stretched-link" (click)="this.drinkSelected(drinks.SODA)">
+                <img class="align-self-center" height="150px" width="150px" src="../../assets/soda.svg" alt="soda icon">
+            </a>
+        </div>
+        <div class="col-4 bg-warning d-flex justify-content-center border border-dark">
+            <a class="my-auto stretched-link" (click)="this.drinkSelected(drinks.BEER)">
+                <img class="align-self-center" height="150px" width="150px" src="../../assets/beer.svg" alt="beer icon">
+            </a>
+        </div>
+        <div class="col-4 bg-success d-flex justify-content-center border border-dark">
+            <a class="my-auto stretched-link" (click)="this.drinkSelected(drinks.CIDER)">
+                <img class="align-self-center" height="150px" width="150px" src="../../assets/cider.svg" alt="cider icon">
+            </a>
+        </div>
+        <div class="col-4 bg-danger d-flex justify-content-center border border-dark">
+            <a class="my-auto stretched-link" (click)="this.drinkSelected(drinks.SODA)">
+                <img class="align-self-center" height="150px" width="150px" src="../../assets/soda.svg" alt="soda icon">
+            </a>
+        </div>
+        <div class="col-4 bg-warning d-flex justify-content-center border border-dark">
+            <a class="my-auto stretched-link" (click)="this.drinkSelected(drinks.BEER)">
+                <img class="align-self-center" height="150px" width="150px" src="../../assets/beer.svg" alt="beer icon">
+            </a>
+        </div>
+        <div class="col-4 bg-warning d-flex justify-content-center border border-dark">
+            <a class="my-auto stretched-link" (click)="this.drinkSelected(drinks.BEER)">
+                <img class="align-self-center" height="150px" width="150px" src="../../assets/beer.svg" alt="beer icon">
+            </a>
         </div>
     </div>
 </div>
